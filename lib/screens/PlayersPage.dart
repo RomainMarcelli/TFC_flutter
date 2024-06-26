@@ -14,7 +14,7 @@ class PlayersPage extends StatelessWidget {
           ListTile(
             title: Text('Player 1'),
             onTap: () {
-              // Navigator.push(context, MaterialPageRoute(builder: (context) => PlayerDetailPage(playerName: 'Player 1')));
+              // Navigation vers les détails du joueur
             },
           ),
           // Ajoutez d'autres ListTile pour les autres joueurs
